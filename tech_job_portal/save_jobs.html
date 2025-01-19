@@ -1,0 +1,8 @@
+<!-- jobs/templates/jobs/save_jobs.html -->
+
+<h1>Jobs Saved</h1>
+<ul>
+    {% for job in jobs %}
+        <li>{{ job.title }} at {{ job.company }}</li>
+    {% endfor %}
+</ul>
